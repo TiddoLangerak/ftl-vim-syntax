@@ -1,10 +1,10 @@
 " Vim syntax file
 " Language:    FreeMarker Template Language (FTL)
-" Maintainer:  Stephan Müller <stephan@notatoaster.org>
+" Maintainer:  Stephan Mï¿½ller <stephan@notatoaster.org>
 " Last Change: 2008 Oct 22
 "
 " Changelog:
-" 1.0 Stephan Müller: Original version
+" 1.0 Stephan Mï¿½ller: Original version
 " 1.1 tyru:
 "   Added Feature:
 "     * Highlight html tags.
@@ -18,7 +18,7 @@
 "
 " Licensed under the MIT License (MIT):
 "
-" Copyright (c) 2008 Stephan Müller
+" Copyright (c) 2008 Stephan Mï¿½ller
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal
@@ -99,6 +99,13 @@ FtlHiLink ftlInterpolation Constant
 FtlHiLink ftlInterpolation2 Constant
 FtlHiLink ftlString Constant
 FtlHiLink ftlComment Comment
+
+
+FtlHiLink ftlStartDirectiveAlt ftlStartDirective
+FtlHiLink ftlEndDriectiveAlt ftlEndDirective
+FtlHiLink ftlStartUserDirectiveAlt ftlStartUserDirective
+FtlHiLink ftlEndUserDirectiveAlt ftlEndUserDirective
+FtlHiLink ftlCommentAlt ftlComment
 
 delcommand FtlHiLink
 
